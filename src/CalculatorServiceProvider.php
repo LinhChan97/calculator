@@ -1,9 +1,8 @@
 <?php
 
-namespace Linhchan\Calculator\Providers;
+namespace Linhchan\Calculator;
 
 use Illuminate\Support\ServiceProvider;
-use Linhchan\Calculator\CalculatorController;
 
 class CalculatorServiceProvider extends ServiceProvider
 {
@@ -24,6 +23,6 @@ class CalculatorServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include dirname(__DIR__, 1).'/Routes/web.php';
+        include __DIR__.'/Routes/web.php';
     }
 }
