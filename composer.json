@@ -11,7 +11,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-        "Linhchan\\Calculator\\": "packages/linhchan/calculator/src"
+        "Linhchan\\Calculator\\": "calculator/src"
         }
     }
 }
