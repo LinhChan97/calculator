@@ -1,6 +1,6 @@
 <?php
 
-namespace Linhchan\Calculator;
+namespace Linhchan\Calculator\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
