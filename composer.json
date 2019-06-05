@@ -11,7 +11,14 @@
     "require": {},
     "autoload": {
         "psr-4": {
-        "Linhchan\\Calculator\\": "linhchan/calculator/src"  
+        "Linhchan\\Calculator\\": "src/"  
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Linhchan\\Calculator\\CalculatorServiceProvider"
+            ]
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Linhchan\Calculator\Providers;
+namespace Linhchan\Calculator;
 
 use Illuminate\Support\ServiceProvider;
 use Linhchan\Calculator\CalculatorController;
@@ -14,7 +14,7 @@ class CalculatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make(CalculatorController::class);
+        $this->app->make('Linhchan\Calculator\CalculatorController');
     }
 
     /**
