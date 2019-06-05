@@ -1,5 +1,5 @@
 {
-    "name": "linhchan/standard-calculator",
+    "name": "linhchan/calculator",
     "description": "This is a demo",
     "type": "library",
     "authors": [
@@ -11,7 +11,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-        "Linhchan\\StandardCalculator\\": "packages/linhchan/calculator/src"
+        "Linhchan\\Calculator\\": "packages/linhchan/calculator/src"
         }
     }
 }
