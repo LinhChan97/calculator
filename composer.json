@@ -1,0 +1,17 @@
+{
+    "name": "linhchan/standard-calculator",
+    "description": "This is a demo",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Linh",
+            "email": "vanmylink@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+        "Linhchan\\StandardCalculator\\": "packages/linhchan/calculator/src"
+        }
+    }
+}
